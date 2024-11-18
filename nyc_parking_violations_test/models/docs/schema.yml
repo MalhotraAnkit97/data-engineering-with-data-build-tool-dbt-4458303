@@ -1,0 +1,12 @@
+models:
+  - name: bronze_praking_violation_codes
+    description: Raw data representing the violation codes and their fees.
+    columns:
+      - name: violation_code
+        description: '{{ doc("violation_code") }}'
+      - name: definition
+        description: '{{ doc("definition") }}'
+      - name: manhattan_96th_st_below
+        description: '{{ doc("manhattan_96th_st_below") }}'
+      - name: all_other_areas
+        description: '{{ doc("all_other_areas") }}'
